@@ -128,7 +128,31 @@ console.log('Frequency:', maxFrequency);*/
 
 
 
-console.log(window.countries)
-console.log(window.webTechs)
+// console.log(window.countries)
+// console.log(window.webTechs)
+let numOne = 3
+let numTwo = 3
+
+console.log(numOne === numTwo) 
+
+let space = ' '
+let firstName = 'Asabeneh'
+let lastName = 'Yetayeh'
+let country = 'Finland'
+let city = 'Helsinki'
+let language = 'JavaScript'
+let job = 'teacher'
+let age = 250
+let fullName = firstName + ' ' + lastName
+
+
+let person = 'my name' + space + firstName + lastName + 'i live in' + country
+console.log(person)
+let personInfo = `My name is ${fullName}, I am from ${city} in ${country}`
+console.log(personInfo)
+
+let newStr = '30 Days Of JavaScript'
+console.log(newStr.split())
+
 
 
